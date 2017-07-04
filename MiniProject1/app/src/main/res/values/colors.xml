@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#262626</color>
+    <color name="colorFacebook">#3b5998</color>
+    <color name="colorFacebook_dark">#324c84</color>
+    <color name="colorFacebook_light">#224eed</color>
+    <color name="colorFacebook_grey">#d6d3d3</color>
+    <color name="colorFacebook_grey_dark">#bcbaba</color>
+    <color name="colorFacebook_grey_dark_2">#706e6e</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/colorFacebook_dark</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

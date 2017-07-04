@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_helgiht">56dp</dimen>
+    <dimen name="toolbar_icon_width">21dp</dimen>
+    <dimen name="toolbar_icon_height">26dp</dimen>
+    <dimen name="toolbar_icon_width_large">30dp</dimen>
+    <dimen name="toolbar_icon_height_large">33dp</dimen>
+
+    <dimen name="text_min">11sp</dimen>
+    <dimen name="text_small">13sp</dimen>
+    <dimen name="text_large">15sp</dimen>
+    <dimen name="text_max">20sp</dimen>
+
+</resources>
+
+

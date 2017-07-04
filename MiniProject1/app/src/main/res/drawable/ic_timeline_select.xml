@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <bitmap android:src="@drawable/ic_timeline" android:tint="@color/colorFacebook_light" />
+    </item>
+    <!-- default -->
+    <item>
+        <bitmap android:src="@drawable/ic_timeline" android:tint="@color/colorFacebook_grey_dark_2" />
+    </item>
+</selector>

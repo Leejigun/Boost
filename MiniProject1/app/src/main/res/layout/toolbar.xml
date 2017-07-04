@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorFacebook"
+    app:layout_scrollFlags="scroll|enterAlways|snap">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_helgiht"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="3dp"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/imgvDirect"
+            android:layout_width="@dimen/toolbar_icon_width"
+            android:layout_height="@dimen/toolbar_icon_height"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_direct" />
+
+        <ImageView
+            android:id="@+id/imgvMessage"
+            android:layout_width="@dimen/toolbar_icon_width_large"
+            android:layout_height="@dimen/toolbar_icon_height_large"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/ic_messenger"
+            android:tint="@color/white" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/imgvMessage"
+            android:layout_toRightOf="@+id/imgvDirect"
+            android:backgroundTint="@color/white"
+            android:hint="@string/edit_search_hint"
+            android:textSize="@dimen/text_small"
+            android:drawableStart="@drawable/ic_search"
+            android:drawableLeft="@drawable/ic_search"
+            android:textCursorDrawable="@drawable/edtx_cursor"
+            android:textColor="@color/white"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/white"
+            android:inputType="textNoSuggestions"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

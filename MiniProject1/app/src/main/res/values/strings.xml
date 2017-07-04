@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MiniProject</string>
+    <string name="edit_search_hint">검색</string>
+
+    <string name="toastmessage_induceupdate">업데이트를 공유하시겠습니까?</string>
+    <string name="toastmessage_postimage">이미지가 클릭되었어요!</string>
+    <string name="toastmessage_story">스토리를 등록하시겠어요?</string>
+    <string name="toastmessage_other_story">다른 친구의 스토리를 보러갈까요?</string>
+    <string name="toastmessage_like">좋아요. :)</string>
+    <string name="toastmessage_comment">코멘트를 남겨주세요 ~</string>
+    <string name="toastmessage_share">공유해주세요 ^ㅡ^ </string>
+    <string name="toastmessage_direct">다이렉트 메세지!</string>
+    <string name="toastmessage_messagener">페이스북 메신저!</string>
+
+    <string name="post_content1">Once our pull request has been accepted and merged with the main repo, you should see your pull request accepted and closed.</string>
+    <string name="post_content2">부스트캠프는 SW개발 전문가로서의 역량을 강화할 수 있는 집중 교육 프로그램입니다. 현업 SW개발 전문가들의 업무 경험을 단기간에 압축적으로 제공하고, 심도 깊은 실습 프로젝트와 전문가 멘토링을 통해 신입개발자로서의 역량 강화를 돕습니다.</string>
+    <string name="post_content3">부스트 캠프 안드로이드 과정은 정해진 커리큘럼에 따라 자기주도 학습과 실무 프로젝트를 진행하는 과정이다. 이 과정 속에서 안드로이드 앱을 개발하기 위한 다양한 지식을 쌓을 수 있으며 실전 튜터와 함께 실무 지식을 배양하여 스스로 안드로이드 앱을 개발할 수 있는 능력을 키우는 것을 목표로 한다.</string>
+
+</resources>
